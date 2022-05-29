@@ -1,0 +1,41 @@
+{
+  "name": "js-design-patterns",
+  "version": "0.1.0",
+  "description": "This was created to help to learn and understand the patterns that I use in my JS projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proxy": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "state": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "facade": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "visitor": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "builder": "./node_modules/.bin/ts-node src/builder",
+    "factory": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "adapter": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "memento": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "iterator": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "mediator": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "singleton": "./node_modules/.bin/ts-node src/singleton",
+    "prototype": "./node_modules/.bin/ts-node src/prototype",
+    "decorator": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "observer": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "strategy": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "template-method": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1",
+    "chain-of-responsibility": "echo \"Error: Pattern not implemented, feel free to do it!\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Felipe Kautzmann <felipe.kautzmann@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^17.0.36",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0"
+  }
+}
