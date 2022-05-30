@@ -2,18 +2,25 @@
 > This was created to help to learn and understand the patterns that I use in my JS projects.
 
 ## Installation
-First, you need to install [NodeJs and npm](https://nodejs.org), then install the dependencies:
+First, make sure you have [NodeJs and npm](https://nodejs.org) installed. 
 
-```bash
-npm install
-```
+- Then, you need to clone the repository.
 
-## Scripts
-There are scripts for each pattern, you can check the scripts in the [package.json](./package.json) file, eg:
+  ```bash
+  git clone git@github.com:felipekm/js-design-patterns.git
+  ```
 
-```bash
-npm run singleton
-```
+- After that, you can install the dependencies.
+
+  ```bash
+  npm install
+  ```
+
+- There are scripts for each pattern, you can check the scripts in the [package.json](./package.json) file, eg:
+
+  ```bash
+  npm run singleton
+  ```
 
 ## Usage
 The following is a list of the patterns I use in my JS projects:
@@ -185,5 +192,3 @@ This project is open source. There is a folder for each Design Pattern under `sr
 
 ## License
 This project is licensed under the MIT license and is available on [Github](https://github.com/felipekm/js-design-patterns).
-
-
